@@ -1,0 +1,279 @@
+$tamaniologogrande: 50%;
+
+
+.container-fluid{
+    padding: 0;
+}
+.col-lg-12 {
+
+    padding: 0;
+}
+.row {
+    margin: 0; }
+
+ 
+.banner1 img {
+    width: 100%;
+
+}
+
+.rowBannerMarcas {
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+.rowBannerMarcas .img-Fluid { 
+    width: 70%;    
+}
+
+.rowBannerMarcas a  {
+    text-align: center;
+}
+
+#bremen {
+    padding-top: 5px;}
+
+
+
+.box{margin: 60px 0px 10px 0px;
+    width: 100%;
+    height: auto;
+    
+}
+
+.box img { 
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+.logoGrande {   width:($tamaniologogrande)+50%;  
+margin-top:30px;
+    margin-bottom: 50px; 
+}
+
+.ParallaxImg {
+    background-image: url(../assets/img/parallax.png);      
+   min-height: 400px;
+  /* Efecto scroll */
+  background-attachment:fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.ParallaxContent  {
+    position: absolute;
+    bottom: 10%;
+    height: auto;
+    width: 40%;
+    right: 0;
+    padding: 10% 8% 0 0;
+    z-index: 5;
+    text-align: right;
+    font-size: 40px;
+    line-height: 50px;
+    color: #E97F08;
+   
+}
+.ParallaxContent h3 {
+    font-weight: bolder;
+}
+.ParallaxContent .desc {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+    color: white;
+    text-align: right;    
+}
+
+div .Capa {
+    overflow: hidden;
+}
+.Capa::before {
+    content: " ";
+    background: black;
+    opacity: .8;
+    position: absolute;
+    right: -112%;
+    top: 0;
+    width: 150%;
+    height: 100%;
+    z-index: 3;
+    transform: skew(-25deg,0);
+
+
+}
+
+.carousel-inner{
+    height: 500px;
+}
+
+
+
+.boxOfertas {
+    margin: 60px 0px 30px 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    height: auto;
+    border: solid;
+    border-radius: 5px;
+
+}
+.boxOfertas img {
+    width: 100%;
+    height: auto;
+
+}
+
+.precio p {
+    color: #E97F08;
+}
+
+
+
+.rowTitulos {
+    background-color: black;
+    border-radius: 3px;
+    height: 50px;
+    margin: 50px 10px 50px;
+}
+
+
+h1 { padding-left: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    color:#E97F08 ;
+    padding-top: 10px;
+    
+}
+
+h2 { font-weight: bold;
+    font-size: 18px;
+    color:#E97F08 ;
+    padding-top: 14px;
+    padding-left: 10px;
+}
+
+/*PRODUCTOS */
+
+.categorias h3 {
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    -webkit-text-stroke: 0.5px #E97F08;
+}
+
+h4 { 
+    font-size: 17px;
+    font-weight: bolder;
+    color: #E97F08;
+    border-bottom: solid #E97F08 0.7px;
+    border-right: solid #E97F08 0.7px;
+}
+
+.listProduct {
+    padding-right: 100px;
+}
+
+.boxProduct {
+    margin-top: 40px;
+    width: 80%;
+    
+}
+
+.boxOfertas {
+    
+    transition: transform .2s;
+}
+.boxOfertas:hover {
+    transform: scale(1.1);
+}
+
+
+.rowPagination {
+    margin-left:700px;}
+
+
+/* FORMULARIO */
+.formulario {
+    
+    background-color: black;
+    padding: 80px 200px 80px 200px;
+    border: solid #E97F08;
+    border-radius: 10px;
+}
+
+label {
+    color:#E97F08;
+    font-weight: bold;
+}
+.labelNombre {
+    color: #E97F08;
+    padding-right: 4px;
+}
+
+.labelEmail {
+    color:#E97F08;
+    padding-right: 21px;
+}
+
+textarea {
+    margin-left: 9px;
+}
+.botom input {
+    background-color: #E97F08;
+}
+
+.infoContacto h3  {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    -webkit-text-stroke: 0.5px #E97F08;
+}
+.infoContacto p {
+    text-align: center;
+    color: #E97F08;
+}
+
+
+/*NOSOTROS*/
+
+.boxNosotros img {
+     border-radius: 10px;
+     border: solid #E97F08;
+}
+
+.rowNosotros {
+     background-color: black;
+     margin: 30px;
+     border-radius: 10px;
+
+}
+
+.nosotrosP {
+    color: #E97F08;
+    font-weight: bolder;
+    padding: 15px;
+}
+
+
+/* COMO LLEGAR */
+.rowUbicacion {
+     background-color: #E97F08 ;
+     margin: 30px;
+     border-radius: 10px;
+
+}
+.ubicacionP{
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+
+}
+

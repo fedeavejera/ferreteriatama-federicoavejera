@@ -1,0 +1,76 @@
+$tamaniologoredes: 100px;
+
+
+
+
+
+footer{ 
+    margin-top: 50px!important;
+    padding-top: 70px;  
+    border-top: solid black;
+    background-image: url(../assets/img/metal.png);
+    background-position: 18%;
+
+   }
+
+
+.logoFoot { width: 30%;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto; }
+
+
+
+
+.textoFoot { display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    color: #E97F08;
+    padding-bottom: 30px;
+    font-weight: bolder;
+    -webkit-text-stroke: 0.8px black;    
+}   
+
+ .Ferre {
+    color: white;
+    font-size: 21px;
+    font-weight: bolder;
+    -webkit-text-stroke: 0.8px black;
+}    
+
+.footerLogos {
+    display: flex;
+    justify-content: center;
+            padding: 30px 50px 100px 80px;}
+
+.red1{
+    width:$tamaniologoredes/2;
+    margin: 5px 5px;
+}
+.red2{
+    width:$tamaniologoredes/2;
+    margin: 5px 5px;
+}
+.red3{
+    width:$tamaniologoredes/2;
+    margin: 5px 5px;
+}
+
+.design {margin-top: 0;
+         margin-bottom: 0;
+         background-color: black;
+         color:#E97F08;
+         text-align: center;
+         font-size: 12px;}
+
+
+
+@each $redes in facebook, instagram, whatsapp{
+    .#{$redes}-icon {background-image:
+    url(assets/img/#{$redes}.png);
+    }
+}
+
+
+

@@ -1,0 +1,155 @@
+
+
+
+    /* vista mobile */
+@media only screen and (max-width: 768px){
+    .logo{
+        width: 200px;
+        height: auto
+    }
+
+            
+#rowBanner {
+    display: flex;
+    flex-direction: column; }
+#rowBanner .img-Fluid {
+    width:50%;
+}
+
+#bremen {
+    margin-left: 10px;
+}
+    .logoGrande{
+        width: 100%
+    }
+    .img-Fluid{
+        width: 100%;
+    }
+
+.ParallaxImg {
+    width: 375px;
+    background-position: 60% 100%;}
+
+.ParallaxContent h3{
+    font-size: 24px;
+}    
+
+.ParallaxContent .desc {
+    font-size:23px;
+}
+
+.Capa::before {
+    content: " ";
+    background: black;
+    opacity: .8;
+    position: absolute;
+    right: -90%;
+    top: 0;
+    width: 150%;
+    height: 100%;
+    z-index: 3;
+    transform: skew(-25deg,0);
+                                                       
+
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-inner{
+    height: auto;
+}
+/* PRODUCTOS */
+.listProduct {
+    padding-right: 140px;
+}
+
+.rowPagination {
+    margin-left: 0px;
+}
+
+/*CONTACTO*/
+
+.formulario {
+
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+    border: solid #E97F08;
+    border-radius: 10px;
+}
+
+label {
+    color:#E97F08;
+    font-weight: bold;
+}
+.labelNombre {
+    color: #E97F08;
+    padding-right: 3px;
+}
+
+.labelEmail {
+    color:#E97F08;
+    padding-right: 20px;
+}
+
+textarea {
+    margin-left: 7px;
+}
+.botom input {
+    background-color: #E97F08;
+}
+
+.infoContacto h3 {
+    margin-top: 20px;
+}
+
+/* FOOTER */
+
+footer{ 
+    margin-top: 50px!important;
+    padding-top: 30px;
+    background: linear-gradient(to bottom,black,#343434); 
+    background-image: url(../assets/img/metal.png);
+    background-position: 13%;
+
+    
+   }
+
+
+    .textoFoot {
+        padding-bottom: 5px;
+    }   
+    .logoFoot { width: 30%;}
+
+    .footerLogos{
+        color:white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+
+    .footerLogos  {
+        width: 30px;
+        margin: 5px 5px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px 0 30px 0;
+    }
+    }
+
+    @media only screen and (min-width: 769px) and (max-width: 991px){
+       #rowBanner .img-Fluid {
+            width:30%;
+        }
+        .rowBannerMarcas {
+            background-color: black;
+            flex-wrap: wrap;
+        }
+
+    }
