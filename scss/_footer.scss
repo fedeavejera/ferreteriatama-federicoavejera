@@ -66,7 +66,7 @@ footer{
 
 
 
-@each $redes in facebook, instagram, whatsapp{
+@each $redes in facebook2, instagram2, whatsapp2{
     .#{$redes}-icon {background-image:
     url(assets/img/#{$redes}.png);
     }

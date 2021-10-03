@@ -291,14 +291,7 @@ footer {
   text-align: center;
   font-size: 12px; }
 
-.facebook-icon {
-  background-image: url(assets/img/facebook.png); }
 
-.instagram-icon {
-  background-image: url(assets/img/instagram.png); }
-
-.whatsapp-icon {
-  background-image: url(assets/img/whatsapp.png); }
 
 /* vista mobile */
 @media only screen and (max-width: 768px) {
